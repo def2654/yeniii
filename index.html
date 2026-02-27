@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="stil.css">
+
+    <script src="javascript/java.js" defer></script>
 </head>
-<body>
+<body id="bodyim">
 
   <button onclick="document.getElementById('myImage').style.width='20px'">Open Mouth</button>
 
@@ -13,6 +17,13 @@
 
 
 <button onclick="document.getElementById('myImage').style.width='40px'">Close Mouth</button>
+
+<button id="butoncuk">Arka plan degistir</button>
+
+<button id="mavibuton" onclick="changebackgroundtoblue()">Rengi degistir mavi</button>
+<button id="pembebuton" onclick="changebackgroundtopink()">rengi degistir pembe</button>
+<button id="kırmızıbuton" onclick="changebackgroundtored()">rengi degistir kırmızı</button>
+<div id="daire"></div>
 
 
 </body>
